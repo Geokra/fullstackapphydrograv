@@ -1,0 +1,90 @@
+/* Custom styles for the user input form application */
+
+body {
+    background-color: #f8f9fa;
+    padding-bottom: 50px;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.card-header {
+    font-weight: 500;
+}
+
+.form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+#formStatus {
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+}
+
+.status-success {
+    background-color: #d1e7dd;
+    color: #0f5132;
+    border: 1px solid #badbcc;
+}
+
+.status-error {
+    background-color: #f8d7da;
+    color: #842029;
+    border: 1px solid #f5c2c7;
+}
+
+.submission-item {
+    border-bottom: 1px solid #dee2e6;
+    padding: 15px 0;
+}
+
+.submission-item:last-child {
+    border-bottom: none;
+}
+
+.submission-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.submission-name {
+    font-weight: bold;
+    color: #0d6efd;
+}
+
+.submission-date {
+    color: #6c757d;
+    font-size: 0.85rem;
+}
+
+.submission-email {
+    color: #6c757d;
+    margin-bottom: 5px;
+}
+
+.submission-message {
+    white-space: pre-line;
+}
+
+#refreshBtn {
+    transition: all 0.3s;
+}
+
+#refreshBtn:hover {
+    background-color: #f8f9fa;
+}
